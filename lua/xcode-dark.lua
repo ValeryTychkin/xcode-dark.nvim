@@ -166,13 +166,12 @@ local syntax = {
 
 local plugin_syntax = {
   ["@function"] = { fg = theme.Color4 },
-  ["@method"] = { fg = theme.Color4 },
+  ["@method"] = { fg = theme.Color7 },
   ["@keyword.function"] = { fg = theme.Color2, bold = true },
   ["@property"] = { fg = theme.yellow },
   ["@type"] = { fg = theme.Color3 },
   ["@variable"] = { fg = theme.Color5 },
   ["@punctuation.bracket"] = { fg = theme.Color5 },
-  ["@class_name"] = { fg = theme.Color7 },
 
   vimCommentTitle = { fg = theme.grey, bold = true },
   vimLet = { fg = theme.orange },
