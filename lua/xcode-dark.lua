@@ -166,8 +166,12 @@ local syntax = {
 }
 
 local plugin_syntax = {
-  ["@function"] = { fg = theme.Color4 },
+  ["@function"] = { fg = theme.Color7 },
+  ["@function.call"] = { fg = theme.Color4 },
+  ["@function.builtin"] = { fg = theme.Color4 },
+  ["@function.macro"] = { fg = theme.Color4 },
   ["@function.method"] = { fg = theme.Color7 },
+  ["@function.method.call"] = { fg = theme.Color4 },
   ["@keyword"] = { fg = theme.Color2, bold = true },
   ["@property"] = { fg = theme.yellow },
   ["@type"] = { fg = theme.Color3 },
