@@ -120,8 +120,8 @@ local syntax = {
   debugBreakpoint = { fg = theme.bg, bg = theme.red },
 
   Boolean = { fg = theme.orange },
-  Number = { fg = theme.brown },
-  Float = { fg = theme.brown },
+  Number = { fg = theme.yellow },
+  Float = { fg = theme.yellow },
   PreProc = { fg = theme.violet },
   PreCondit = { fg = theme.violet },
   Include = { fg = theme.violet },
@@ -142,10 +142,10 @@ local syntax = {
   Special = { fg = theme.yellow },
   SpecialChar = { fg = theme.yellow },
   Type = { fg = theme.Color3 },
-  Function = { fg = theme.yellow },
+  Function = { fg = theme.Color4 },
   String = { fg = theme.Color1 },
   Character = { fg = theme.Color2 },
-  Constant = { fg = theme.Color4 },
+  Constant = { fg = theme.Color5 },
   Macro = { fg = theme.Color4 },
   Identifier = { fg = theme.blue },
 
