@@ -172,6 +172,7 @@ local plugin_syntax = {
   ["@type"] = { fg = theme.Color3 },
   ["@variable"] = { fg = theme.Color5 },
   ["@punctuation.bracket"] = { fg = theme.Color5 },
+  ["@attribute"] = { fg = theme.Color3 },
 
   vimCommentTitle = { fg = theme.grey, bold = true },
   vimLet = { fg = theme.orange },
