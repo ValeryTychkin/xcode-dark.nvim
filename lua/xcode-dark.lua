@@ -139,7 +139,7 @@ local syntax = {
   Tag = { fg = theme.orange },
   Label = { fg = theme.orange },
   Structure = { fg = theme.orange },
-  Operator = { fg = theme.redwine },
+  Operator = { fg = theme.Color5 },
   Title = { fg = theme.orange, bold = true },
   Special = { fg = theme.Color4 },
   SpecialChar = { fg = theme.Color4 },
