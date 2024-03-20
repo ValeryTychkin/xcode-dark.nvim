@@ -27,6 +27,8 @@ local theme = {
   Color7 = "#41A1C0",
   Color8 = "#A9B7C6",
   Color9 = "#A167E6",
+  Color10 = "#6C7986",
+  Color11 = "#92A1B1",
 
   red = "#e95678",
   redwine = "#d16d9e",
@@ -152,9 +154,9 @@ local syntax = {
   Macro = { fg = theme.Color4 },
   Identifier = { fg = theme.blue },
 
-  Comment = { fg = theme.base6, italic = true },
-  SpecialComment = { fg = theme.grey },
-  Todo = { fg = theme.violet },
+  Comment = { fg = theme.Color10, },
+  SpecialComment = { fg = theme.Color10 },
+  Todo = { fg = theme.Color11 },
   Delimiter = { fg = theme.fg },
   Ignore = { fg = theme.grey },
   Underlined = { underline = true },
