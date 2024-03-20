@@ -24,6 +24,7 @@ local theme = {
   Color4 = "#67B7A4",
   Color5 = "#FFFFFF",
   Color6 = "#5482FF",
+  Color7 = "#41A1C0",
 
   red = "#e95678",
   redwine = "#d16d9e",
@@ -171,6 +172,7 @@ local plugin_syntax = {
   ["@type"] = { fg = theme.Color3 },
   ["@variable"] = { fg = theme.Color5 },
   ["@punctuation.bracket"] = { fg = theme.Color5 },
+  ["@the-class-name"] = { fg = theme.Color7 },
 
   vimCommentTitle = { fg = theme.grey, bold = true },
   vimLet = { fg = theme.orange },
