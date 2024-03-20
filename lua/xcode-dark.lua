@@ -167,7 +167,7 @@ local plugin_syntax = {
   ["@function"] = { fg = theme.Color4 },
   ["@method"] = { fg = theme.Color4 },
   ["@keyword.function"] = { fg = theme.Color2, bold = true },
-  ["@property"] = { fg = theme.yellow },
+  ["@property"] = { fg = theme.Color4 },
   ["@type"] = { fg = theme.Color3 },
   ["@variable"] = { fg = theme.Color5 },
   ["@punctuation.bracket"] = { fg = theme.Color5 },
