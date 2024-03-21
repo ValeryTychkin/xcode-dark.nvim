@@ -124,7 +124,7 @@ local syntax = {
   Debug = { fg = theme.orange },
   debugBreakpoint = { fg = theme.bg, bg = theme.red },
 
-  Boolean = { fg = theme.orange },
+  Boolean = { fg = theme.Color2 },
   Number = { fg = theme.yellow },
   Float = { fg = theme.yellow },
   PreProc = { fg = theme.violet },
