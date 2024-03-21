@@ -94,7 +94,7 @@ local syntax = {
   DiffChange = { fg = theme.black, bg = theme.yellow },
   DiffDelete = { fg = theme.black, bg = theme.red },
   DiffText = { fg = theme.black, bg = theme.fg },
-  Directory = { fg = theme.blue, bg = theme.none },
+  Directory = { fg = theme.Color5, bg = theme.none, bold = true },
   ErrorMsg = { fg = theme.red, bg = theme.none, bold = true },
   WarningMsg = { fg = theme.yellow, bg = theme.none, bold = true },
   ModeMsg = { fg = theme.fg, bg = theme.none, bold = true },
